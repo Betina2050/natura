@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid pink;
+    padding: 30px 0 40px 0;
+    background-color: #eebfc7;
+    nav{
+        display: flex;
+        a{
+            text-decoration: none;
+            li{
+            list-style: none;
+            color: black;
+            background: pink;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 5px;
+            
+            }
+            
+        }
+        
+    }
+}
+.itemnavbar:hover{
+    
+        background: #cc2f98;
+        color: #fff;
+}
+
+.imagLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logotienda{
+    width: 90px;
+}
+main{
+    display: grid;
+    grid-template-columns: 400px auto 400px;
+    grid-template-rows: repeat(4, 100px);
+    border-bottom: 2px solid pink;
+    list-style: none;
+    background-color: pink;
+    
+
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    font-size: 2em;
+    background-color: #eebfc7;
+    
+   
+   
+   
+}
+.fa-whatsapp{
+    color: green;
+    text-decoration: solid;
+   
+    
+}
+.ins{
+    color: crimson;
+   border-bottom: 10px;
+   border-radius: 10px;
+   color: red;
+}
+.fac{
+    color: blue;
+}
+.you{
+    color: red;
+}
+a{
+    border-radius: 15px;
+    margin: 15px;
+  
+}
