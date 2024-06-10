@@ -78,7 +78,7 @@ a{
 }
 main{
     display: grid;
-    grid-template-columns: repeat(3, 400px);
+    grid-template-columns: repeat(4, 400px);
     grid-template-rows: repeat(2, 200px);
     border-bottom: 2px solid pink;
     list-style: none;
@@ -100,17 +100,31 @@ main{
     height: 200px;
     justify-self: center;
 }
-.natura12{
+.natura13{
     grid-column: 2/3;
     grid-row: 1/2;
     width: 200px;
     height: 200px;
     justify-self: center;
 }
-.tododia13{
+.tododia12{
     grid-column: 2/3;
     grid-row: 2/2;
     width: 200px;
     height: 200px;
     justify-self: center;
+}
+.productos17{
+   grid-column: 3/3;
+   grid-row: 1/2;
+   width: 400px;
+   height: 400px;
+}
+.texto{
+    grid-column: 4/4;
+    grid-row: 3/2;
+}
+.lineas{
+    grid-column: 4/4;
+    grid-row: 3/3;
 }
