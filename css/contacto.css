@@ -6,7 +6,7 @@
 header{
     display: flex;
     justify-content: space-around;
-    padding: 30px 0 40px 0;
+    padding: 10px 0 10px 0;
     background-image: url(../img/abstract-1522884_1280.jpg);
     nav{
         display: flex;
@@ -16,8 +16,8 @@ header{
             list-style: none;
             color: black;
             background: pink;
-            padding: 10px;
-            border-radius: 10px;
+            padding: 5px;
+            border-radius: 5px;
             margin: 5px;
             
             }
@@ -42,24 +42,23 @@ header{
 }
 main{
     display: flex;
-    padding:100px;
+    padding:10px;
     flex-direction: column;
     background-image: url(../img/abstract-1522884_1280.jpg);
-    
 
-}
 .formulario{
     flex-direction: column;
     display: flex;
 }
 
- 
+}
 
+ 
 .wrapperform{
     display: flex;
     justify-content: center;
-    background-color: pink;
-    height: 45vh;
+    background-image: url(../img/abstract-1522884_1280.jpg);
+    height: 35vh;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: auto;
@@ -117,6 +116,9 @@ h3{
     padding: 10px
     
 }
+
+    
+    
 
 
 footer{

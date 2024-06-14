@@ -45,7 +45,6 @@ main{
     display: grid;
     grid-template-columns: repeat(4, 400px);
     grid-template-rows: repeat(2, 200px);
-    border-bottom: 2px solid pink;
     list-style: none;
     background-image: url(../img/abstract-1522884_1280.jpg);
 }
@@ -83,7 +82,13 @@ img{
     padding: 20px 0 20px 0;
     margin: 20px;
     justify-items: flex-start;
+    backdrop-filter: blur(10px);
+    border: 2px solid #003459;
+    border-radius: 20px;
+    box-shadow: 0 0 30px #00000080;
+    padding: 10px
 }
+
 footer{
     display: flex;
     justify-content: center;

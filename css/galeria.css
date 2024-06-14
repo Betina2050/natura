@@ -6,7 +6,6 @@
 header{
     display: flex;
     justify-content: space-around;
-    border-bottom: 2px solid pink;
     padding: 10px 0 10px 0;
     background-image: url(../img/abstract-1522884_1280.jpg);
     
@@ -46,15 +45,15 @@ header{
 
 main{
     display: grid;
-    grid-template-columns: repeat(4, 400px);
-    grid-template-rows: repeat(2, 200px);
-    border-bottom: 2px solid pink;
+    grid-template-columns: repeat(4, 500px);
+    grid-template-rows: repeat(4, 200px);
     list-style: none;
-    background-color: aliceblue;
+    background-image: url(../img/abstract-1522884_1280.jpg);
+   justify-content: center;
     
     img{
         
-        width: 75px;
+        width: 100px;
         height: fit-content;
         padding: 20px;
         margin: auto;

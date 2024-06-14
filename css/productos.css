@@ -153,6 +153,9 @@ main{
     .card .description input:hover{
         background: #83277b;
     }
+    .containerCards{
+        display: flex;
+    }
 }
 footer{
     display: flex;
