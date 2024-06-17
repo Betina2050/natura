@@ -8,10 +8,9 @@ header{
     justify-content: space-around;
     padding: 10px 0 10px 0;
     background-image: url(../img/abstract-1522884_1280.jpg);
-    
-    background-color: #eebfc7;
     nav{
         display: flex;
+        
         a{
             text-decoration: none;
             li{
@@ -28,6 +27,8 @@ header{
         
     }
 }
+
+
 .itemnavbar:hover{
     
         background: #cc2f98;
@@ -43,40 +44,46 @@ header{
     width: 90px;
 }
 
-main{
-    display: grid;
-    grid-template-columns: repeat(4, 500px);
-    grid-template-rows: repeat(4, 200px);
-    list-style: none;
-    background-image: url(../img/abstract-1522884_1280.jpg);
-    justify-content: center;
-    
-    img{
-        
-        width: 80px;
-        height: fit-content;
-        padding: 20px;
-        margin: auto;
-        backdrop-filter: blur(10px);
-        border: 2px solid #003459;
-        border-radius: 20px;
-        box-shadow: 0 0 30px #00000080;
-        padding: 10px
-    } 
 
-}
-button{
-    background: orangered;
+.carrito{
     cursor: pointer;
+  
+    
 }
 
-    
+main{
+    display: flex;
+}
+.simbolo{
+    color: orangered;
+    font-family: fantasy;
+    padding: .2em;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin: auto;
+    backdrop-filter: blur(10px);
+    border: 2px solid #f38910;
+    border-radius: 20px;
+    box-shadow: 0 0 30px #00000080;
+    padding: 10px
+}
+h4{
+    font-size: 2rem;
+    color: orangered;
+    backdrop-filter: blur(10px);
+    border: 2px solid #f38910;
+    border-radius: 20px;
+    box-shadow: 0 0 30px #00000080;
+    padding: 10px
+}
 footer{
     display: flex;
     justify-content: center;
     padding: 5%;
     font-size: 2em;
-    background-color: #eebfc7;
     background-image: url(../img/abstract-1522884_1280.jpg);
     
    
@@ -102,6 +109,12 @@ footer{
     color: red;
 }
 a{
+    padding: 10px;
+    border-radius: 15px;
+    margin: 15px;
+    text-decoration: none;
+    color: #cc2f98;
+    font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     backdrop-filter: blur(10px);
     border: 2px solid #003459;
@@ -109,5 +122,11 @@ a{
     box-shadow: 0 0 30px #00000080;
     padding: 10px
     
+    
   
+}
+a:hover{
+    background: #cc2f98;
+    color: pink;
+    
 }
