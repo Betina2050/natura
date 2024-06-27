@@ -159,4 +159,41 @@ footer{
       
     }
     
-    
+    .mainContacto{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: repeat(5 auto);
+        gap: 20px 15px;
+    }
+
+    .fono{
+        grid-column: 2/3;
+       grid-row: 1;
+    }
+
+    .wrapperform{
+        grid-column: 2/3;
+        grid-row: 2;
+    }
+
+    .h3Contact{
+        grid-column: 2/3;
+        grid-row: 3;
+    }
+
+    .textarea{
+        grid-column: 2/3;
+        grid-row: 4;
+    }
+
+    .boton{
+        grid-column: 2/3;
+        grid-row: 5;
+    }
+
+    .imgContact{
+        width: 150px;
+        grid-column: 1/3;
+        grid-row: 2;
+    }
+

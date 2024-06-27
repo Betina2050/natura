@@ -285,3 +285,25 @@ a:hover{
     color: pink;
     
 }
+.a1{
+    color: white;
+}
+
+.a1:hover{
+    color: white;
+    background: black;
+}
+.a2{
+    color: white;
+}
+.a2:hover{
+    color: white;
+    background: black;
+}
+.a3{
+    color: white;
+}
+.a3:hover{
+    color: white;
+    background: black;
+}
