@@ -42,7 +42,10 @@ header{
 .logotienda{
     width: 90px;
 }
-
+.carrito{
+    cursor: pointer;
+    color: white;
+}
 main{
    
     display: flex;
@@ -194,4 +197,7 @@ a{
     border-radius: 20px;
     box-shadow: 0 0 30px #00000080;
     padding: 10px
+}
+p{
+    color: white;
 }

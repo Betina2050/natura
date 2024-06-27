@@ -41,8 +41,12 @@ header{
 }
 .logotienda{
     width: 90px;
+    
 }
-
+.carrito{
+    cursor: pointer;
+    color: white;
+}
 main{
     display: grid;
     grid-template-columns: repeat(4, 500px);

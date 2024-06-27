@@ -40,6 +40,10 @@ header{
 .logotienda{
     width: 90px;
 }
+.carrito{
+    cursor: pointer;
+    color: white;
+}
 
 main{
     display: grid;

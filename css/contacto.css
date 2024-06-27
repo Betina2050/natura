@@ -39,6 +39,15 @@ header{
 }
 .logotienda{
     width: 90px;
+    .carrito{
+        cursor: pointer;
+        color: white;
+    }
+
+}
+.carrito{
+    cursor: pointer;
+    color: white;
 }
 main{
     display: flex;
@@ -200,4 +209,7 @@ footer{
     width: 150px;
     grid-column: 3/3;
     grid-row: 2;
+}
+p{
+    color: white;
 }
