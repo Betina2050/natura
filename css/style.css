@@ -7,7 +7,7 @@ header{
     display: flex;
     justify-content: space-around;
     padding: 10px 0 10px 0;
-    background-image: url(../img/abstract-1522884_1280.jpg);
+    background-color: white;
     nav{
         display: flex;
         
@@ -39,6 +39,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 .logotienda{
     width: 90px;
@@ -47,14 +48,14 @@ header{
 
 .carrito{
     cursor: pointer;
-    color: white;
+    color: black;
 }
 main{
     display: grid;
     grid-template-columns:repeat(5,300px) ;
     grid-template-rows: repeat(6, 200px);
     list-style: none;
-    background-image: url(../img/abstract-1522884_1280.jpg);    
+    background-color: white;
 
 }
 p{
@@ -241,7 +242,7 @@ footer{
     justify-content: center;
     padding: 5%;
     font-size: 2em;
-    background-image: url(../img/abstract-1522884_1280.jpg);
+    background-color: white;
     
    
    
@@ -288,7 +289,7 @@ a:hover{
     
 }
 .a1{
-    color: white;
+    color: black;
 }
 
 .a1:hover{
@@ -296,19 +297,19 @@ a:hover{
     background: black;
 }
 .a2{
-    color: white;
+    color: black;
 }
 .a2:hover{
     color: white;
     background: black;
 }
 .a3{
-    color: white;
+    color: black;
 }
 .a3:hover{
     color: white;
     background: black;
 }
 p{
-    color: white;
+    color: black;
 }

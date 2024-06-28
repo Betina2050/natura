@@ -7,9 +7,8 @@ header{
     display: flex;
     justify-content: space-around;
     padding: 10px 0 10px 0;
-    background-image: url(../img/abstract-1522884_1280.jpg);
+    background-color: white;
     
-    background-color: #eebfc7;
     nav{
         display: flex;
         a{
@@ -45,14 +44,14 @@ header{
 }
 .carrito{
     cursor: pointer;
-    color: white;
+    color: black;
 }
 main{
     display: grid;
     grid-template-columns: repeat(4, 500px);
     grid-template-rows: repeat(4, 200px);
     list-style: none;
-    background-image: url(../img/abstract-1522884_1280.jpg);
+    background-color: white;
     justify-content: center;
     
     img{
@@ -81,7 +80,7 @@ footer{
     padding: 5%;
     font-size: 2em;
     background-color: #eebfc7;
-    background-image: url(../img/abstract-1522884_1280.jpg);
+    background-color: white;
     
    
    
@@ -116,6 +115,6 @@ a{
   
 }
 p{
-    color: rgb(220, 233, 225);
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

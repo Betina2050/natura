@@ -7,7 +7,7 @@ header{
     display: flex;
     justify-content: space-around;
     padding: 30px 0 40px 0;
-    background-image: url(../img/abstract-1522884_1280.jpg);
+    background-color: white;
     nav{
         display: flex;
         a{
@@ -42,7 +42,7 @@ header{
 }
 .carrito{
     cursor: pointer;
-    color: white;
+    color: black;
 }
 
 main{
@@ -50,7 +50,7 @@ main{
     grid-template-columns: repeat(4, 400px);
     grid-template-rows: repeat(2, 200px);
     list-style: none;
-    background-image: url(../img/abstract-1522884_1280.jpg);
+    background-color: white;
 }
     
 
@@ -74,7 +74,7 @@ main{
     justify-content: center;
     text-align: center;
     font-size: 1.4rem;
-    color: #e4d7d8e1;
+    color: #f51326e1;
     margin: auto;
     backdrop-filter: blur(10px);
     border: 2px solid #003459;
@@ -98,7 +98,7 @@ footer{
     justify-content: center;
     padding: 5%;
     font-size: 2em;
-    background-image: url(../img/abstract-1522884_1280.jpg);
+    background-color: white;
     
    
    

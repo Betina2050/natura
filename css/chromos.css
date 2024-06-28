@@ -7,7 +7,7 @@ header{
     display: flex;
     justify-content: space-around;
     padding: 10px 0 10px 0;
-    background-image: url(../img/abstract-1522884_1280.jpg);
+    background-color: white;
     nav{
         display: flex;
         
