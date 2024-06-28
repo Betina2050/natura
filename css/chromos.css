@@ -50,24 +50,23 @@ header{
 main{
     display: flex;
     width: 100vw;
-    background-image: url(../img/abstract-1522884_1280.jpg);
-  
+    background-color: white;
    }
 
 
 
 h3{
-    font-size: 70px;
+    font-size: 40px;
     justify-content: center;
     align-items: center;
-    color: aliceblue;
+    color: black;
 }
 footer{
     display: flex;
     justify-content: center;
     padding: 5%;
     font-size: 2em;
-    background-image: url(../img/abstract-1522884_1280.jpg);
+    background-color: white;
     
    
    

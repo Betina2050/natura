@@ -9,7 +9,7 @@ header{
     display: flex;
     justify-content: space-around;
     padding: 10px 0 10px 0;
-    background-image: url(../img/abstract-1522884_1280.jpg);
+    background-color: white;
     nav{
         display: flex;
         
@@ -52,7 +52,7 @@ header{
 main{
     display: flex;
     list-style: none;
-    background-image: url(../img/abstract-1522884_1280.jpg);
+   background-color: white;
     justify-content: center;
     
 
@@ -66,8 +66,7 @@ footer{
     justify-content: center;
     padding: 5%;
     font-size: 2em;
-    background-image: url(../img/abstract-1522884_1280.jpg);
-    
+    background-color: white;
    
 }
 .fa-whatsapp{
